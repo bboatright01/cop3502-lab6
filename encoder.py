@@ -23,7 +23,7 @@ def main():
             encoded = encode(input("Please enter your password to encode: "))
             print("Your password has been encoded and stored!")
         elif selected_option == 2:
-            print("The encoded password is " + encoded + ", and the original password is " + decode(encoded))
+            print("The encoded password is: " + encoded + ", and the original password is (decode() is currently unimplemented).")
         elif selected_option == 3:
             return
 
